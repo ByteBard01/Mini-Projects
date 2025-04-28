@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  background-color: #f0f3ff;
+}
+h1 {
+  background-color: #000000;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.choice {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+.choice:hover {
+  border-radius: 50%;
+  background-color: #211951;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+.msg-box {
+  margin-top: 5rem;
+}
+#msg {
+  background-color: #836fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #3d365c;
+  font-family: sans-serif;
+}
